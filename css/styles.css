@@ -42,9 +42,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .filter-button:hover,
 .filter-button:focus { color: #FFFFFF; background-color: #404BBF; cursor: pointer;
     border: 1px solid transparent;}
-.container { width: 1158px; margin: 0 auto; padding: 0 15px;}
 .header {display: flex; border-bottom: 1px solid #e7e9fc;}
-.menu {display: flex}
+.menu {display: flex; width: 1158px; margin: 0 auto; padding: 0 15px;}
 .nav {display: flex; align-items: center;}
 .navigation-list {display: flex; gap: 40px; padding: 24px 0;}
 .li-navigation {display: flex;}
@@ -63,6 +62,6 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .filters {padding: 96px 0 120px 0;}
 .filter-list {display: flex; justify-content: center; gap: 24px; margin-bottom: 72px;}
 .services-list {display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px;}
-.li-service {flex-basis: calc((100% - 48px) / 3);}
+.li-service {width: calc((100% - 48px)/3);}
 .apps {padding: 32px 16px; border: 1px solid #e7e9fc; border-top: none;}
-.link {display: block;}
+.link {display: inline-block;}
