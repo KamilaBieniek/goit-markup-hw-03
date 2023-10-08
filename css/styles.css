@@ -1,8 +1,10 @@
 body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFFFFF;}
 :root{color: var(--brand-color)}
 .title { font-weight: 500;}
-.logo {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;
-        margin-right: 76px;}
+.logo-header,
+.logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;}
+.logo-header {margin-right: 76px;}
+.logo-footer {display: inline-block; margin-bottom: 16px;}
 .link {text-decoration: none;}
 .span {color: #2e2f42;}
 .list {list-style: none; display: inline;}
@@ -30,7 +32,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .team {background-color: #F4F4FD;
     padding: 120px 0;}
 .team-card{background-color: #FFFFFF;
-    width: calc((100%-72px)/4);border-radius: 0 0 4px 4px;}
+    width: calc((100%-72px)/4); border-radius: 0 0 4px 4px;}
 .footer {background-color: #2E2F42;}
 .span-footer {color: #F4F4FD;}
 .text-footer {color: #F4F4FD; line-height: 1.5; letter-spacing: 0.02em;
@@ -41,7 +43,6 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .filter-button:focus { color: #FFFFFF; background-color: #404BBF; cursor: pointer;
     border: 1px solid transparent;}
 .container { width: 1158px; margin: 0 auto; padding: 0 15px;}
-.img {display: block;}
 .header {display: flex; border-bottom: 1px solid #e7e9fc;}
 .menu {display: flex}
 .nav {display: flex; align-items: center;}
@@ -59,7 +60,6 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .team-list {display: flex; gap: 24px;}
 .name {padding: 32px 0;}
 .footer {display: flex; padding: 100px 0;}
-.logo-footer {display: inline-block; margin-bottom: 16px;}
 .filters {padding: 96px 0 120px 0;}
 .filter-list {display: flex; justify-content: center; gap: 24px; margin-bottom: 72px;}
 .services-list {display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px;}
