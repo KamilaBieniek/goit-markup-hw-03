@@ -6,7 +6,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .link {text-decoration: none;}
 .span {color: #2e2f42;}
 .list {list-style: none; display: inline;}
-.navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;}
+.navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;
+    padding: 24px 0;}
 .navigation:hover,
 .navigation:focus {color: #404bbf;}
 .address {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;
@@ -45,9 +46,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .menu {display: flex}
 .nav {display: flex; align-items: center;}
 .navigation-list {display: flex; gap: 40px; padding: 24px 0;}
-.li-navigation {display: flex; padding: 24px 0;}
+.li-navigation {display: flex;}
 .address-list {display: flex; gap: 40px}
-.address {padding: 24px 0;}
 .catchphrase {padding: 188px 0;}
 .values {padding: 120px 0;}
 .visually-hidden {visibility: hidden;}
