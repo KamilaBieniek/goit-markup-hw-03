@@ -61,6 +61,14 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .filters {padding: 96px 0 120px 0;}
 .filter-list {display: flex; justify-content: center; gap: 24px; margin-bottom: 72px;}
 .services-list {display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px;}
-.li-service {width: calc((100%-48px)/3);}
+.li-app {width: calc((100%-48px)/3)}
 .apps {padding: 32px 16px; border: 1px solid #e7e9fc; border-top: none;}
-.visually-hidden {visibility: hidden;}
+.visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
