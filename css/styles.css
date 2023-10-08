@@ -9,7 +9,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;}
 .navigation:hover,
 .navigation:focus {color: #404bbf;}
-.address {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;}
+.address {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;
+    padding: 24px 0;}
 .address:hover,
 .address:focus { color: #404BBF;}
 .catchphrase {background-color: #2E2F42;}
