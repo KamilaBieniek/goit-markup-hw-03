@@ -4,7 +4,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .logo {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;}
 .link {text-decoration: none;}
 .span {color: #2e2f42;}
-.list {list-style: none;}
+.list {list-style: none; display: inline;}
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;}
 .navigation:hover,
 .navigation:focus {color: #404bbf;}
@@ -27,5 +27,14 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .filter-button { color: #4D5AE5; background-color: #F4F4FD; font-family: "Roboto", sans-serif; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.04em;}
 .filter-button:hover,
 .filter-button:focus { color: #FFFFFF; background-color: #404BBF; cursor: pointer;}
-
-
+.container { width: 1158px; margin: 0 auto; padding: 15px;}
+.header {display: flex;}
+.nav {display: flex}
+.navigation-list {display: flex; justify-content: space-between;}
+.address-list {display: flex;justify-content: space-between;}
+.values-list {display: flex;}
+.doing-list {display: flex; justify-content: space-between;}
+.li-doing {padding: 24 72 24 120;}
+.team-list {display: flex; justify-content: space-between;}
+.filter-list {display: flex; justify-content: center;}
+.services-list {display: flex; flex-wrap: wrap; justify-content: space-between;}
