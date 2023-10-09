@@ -79,7 +79,5 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .link {
-    container: padding: 24px;
-    justify-content: center; box-sizing: border-box;} 
+  .container {padding-left: 48px; justify-content: center; box-sizing: border-box;} 
  
