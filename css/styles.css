@@ -81,5 +81,5 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  link-footer {display: inline-block;}
+  .link-footer {display: inline-block;}
   
