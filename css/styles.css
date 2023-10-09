@@ -6,9 +6,9 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
    padding: 0; 
 }
 .title { font-weight: 500;}
-.logo-footer { margin-bottom: 16px;}
+.logo-footer {margin-bottom: 16px; display: inline-block; }
 .logo-header,
-.logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase; display: inline-block;}
+.logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase; }
 .logo-header {margin-right: 76px;}
 .link {text-decoration: none; 
     display: inline-block;}
