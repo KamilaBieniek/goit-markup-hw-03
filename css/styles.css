@@ -82,4 +82,4 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     overflow: hidden;
   }
   
-  .container { justify-content: space-evenly; flex-basis: auto; padding-left: 40px;}
+  .container {justify-content: center; }
