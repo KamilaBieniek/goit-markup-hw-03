@@ -53,7 +53,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .nav {display: flex; align-items: center;}
 .navigation-list {display: flex; gap: 40px; padding: 24px 0;}
 .li-navigation {display: flex;}
-.address-list {display: flex; gap: 40px}
+.address-list {display: flex; gap: 40px; padding: 0 40px;}
 .catchphrase {padding: 188px 0;}
 .values {padding: 120px 0;}
 .values-list {display: flex; gap: 24px}
@@ -82,4 +82,5 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     overflow: hidden;
   }
   
-  
+  .container { justify-content: space-evenly; flex-basis: auto;
+    margin: 0 24px;}
