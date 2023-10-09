@@ -1,5 +1,4 @@
 body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFFFFF;}
-.container {padding-left: 48px; justify-content: center; box-sizing: border-box;} 
 :root{color: var(--brand-color)}
 * { 
     box-sizing: border-box;
@@ -80,4 +79,4 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  
+  .container {justify-content: center; box-sizing: border-box;} 
