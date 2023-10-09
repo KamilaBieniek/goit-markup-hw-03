@@ -1,11 +1,16 @@
 body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFFFFF;}
 :root{color: var(--brand-color)}
+* { 
+    box-sizing: border-box;
+   margin: 0; 
+   padding: 0; 
+}
 .title { font-weight: 500;}
 .logo-footer {display: inline-block; margin-bottom: 16px;}
 .logo-header,
 .logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;}
 .logo-header {margin-right: 76px;}
-.link {text-decoration: none;}
+.link {text-decoration: none; display: block;}
 .span {color: #2e2f42;}
 .list {list-style: none; display: inline;}
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;
@@ -54,7 +59,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .li-values {width: calc((100% - 72px) / 4);}
 .what-are-we-doing {padding-bottom: 120px;}
 .doing-list {display: flex; gap: 24px}
-.li-doing {width: calc((100%-48px)/3);}
+.li-doing {width: calc((100% - 48px)/3);}
 .team-list {display: flex; gap: 24px;}
 .name {padding: 32px 0;}
 .footer {display: flex; padding: 100px 0;}
@@ -63,12 +68,16 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .services-list {display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px;}
 .li-app {width: calc((100%-48px)/3)}
 .apps {padding: 32px 16px; border: 1px solid #e7e9fc; border-top: none;}
-.visually-hidden:not(:focus):not(:active) {
-    clip: rect(0 0 0 0);
-    clip-path: inset(100%);
-    height: 1px;
-    overflow: hidden;
+.visually-hidden {
     position: absolute;
-    white-space: nowrap;
     width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
+  
