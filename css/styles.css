@@ -10,7 +10,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .logo-header,
 .logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase;}
 .logo-header {margin-right: 76px;}
-.link {text-decoration: none; display: inline-block;}
+.link {text-decoration: none; 
+    display: inline-block;}
 .span {color: #2e2f42;}
 .list {list-style: none; display: inline;}
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;
