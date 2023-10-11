@@ -61,7 +61,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .team {background-color: #F4F4FD;
     padding: 120px 0;
     }
-.team-list {display: flex; gap: 24px; margin-right: 76px; margin-left: 76px;}
+.team-list {display: flex; gap: 24px;}
 .team-card {background-color: #FFFFFF; border-radius: 0 0 4px 4px;
     width: calc((100% - 72px)/4);}
 .name {padding: 32px 0;}
