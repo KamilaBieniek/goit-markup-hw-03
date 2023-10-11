@@ -19,11 +19,12 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .li-navigation {display: flex; justify-content: center;}
 .navigation:hover,
 .navigation:focus {color: #404bbf;}
-.address {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;
+.address {
     padding: 24px 0;}
 .address-list {display: flex; gap: 40px; padding-left: 332px;}
-.address:hover,
-.address:focus { color: #404BBF;}
+.address-link {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;}
+.address-link:hover,
+.address-link:focus { color: #404BBF;}
 .catchphrase {background-color: #2E2F42; padding: 188px 0;}
 .title {color: #FFFFFF;font-size: 56px; font-weight: 700; line-height: 1.07; letter-spacing: 0.02em; text-align: center;
     max-width: 496px; margin: auto;}
@@ -31,7 +32,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     display: block; min-width: 169px; height: 56px; border: none; border-radius: 4px; margin: 0 auto; margin-top: 48px;}
 .order-button:hover,
 .order-button:focus {background-color: #404BBF; cursor: pointer;}
-.title { font-weight: 500;}
+.title {font-weight: 500;}
 .headline-values { color: #2E2F42; font-size: 20px; font-weight: 500; line-height: 1.2; letter-spacing: 0.02em;
     margin-bottom: 8px;}
 .headline { color: #2E2F42; font-size: 20px; font-weight: 500; line-height: 1.2; letter-spacing: 0.02em;
