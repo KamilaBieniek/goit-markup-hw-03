@@ -8,11 +8,11 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .link {text-decoration: none; display: inline-block;}
 .list {list-style: none; display: inline;}
 .header {display: flex; border-bottom: 1px solid #e7e9fc;}
-.container {width: 11,58px;
+.container {width: 1158px;
    margin: 0 auto;
    padding: 0 15px;} 
 .menu {display: flex; width: 1158px; margin: 0 auto; padding: 0 15px;}
-.nav {display: flex; align-items: center; justify-content: left;}
+.nav {display: flex; align-items: center;}
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;
     padding: 24px 0;}
 .navigation-list {display: flex; gap: 40px; padding: 24px 0;}
@@ -21,7 +21,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .navigation:focus {color: #404bbf;}
 .address {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;
     padding: 24px 0;}
-.address-list {display: flex; gap: 40px; padding-left: 250px;}
+.address-list {display: flex; gap: 40px; padding-left: 332px;}
 .address:hover,
 .address:focus { color: #404BBF;}
 .catchphrase {background-color: #2E2F42; padding: 188px 0;}
@@ -51,17 +51,17 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .main-title { color: #2E2F42; font-size: 36px; line-height: 1.11; letter-spacing: 0.02em; text-align: center; text-transform: capitalize;
     margin-bottom: 72px;}
 .values {padding: 120px 0;}
-.values-list {display: flex; gap: 24px; margin-left: 140px; margin-right: 140px;}
+.values-list {display: flex; gap: 24px;}
 .li-values {
     width: calc((100% - 72px)/4);}
 .what-are-we-doing {padding-bottom: 120px;}
-.doing-list {display: flex; gap: 24px; margin-left: 140px;}
+.doing-list {display: flex; gap: 24px;}
 .li-doing {
     width: calc((100% - 48px)/3);}
 .team {background-color: #F4F4FD;
     padding: 120px 0;
     }
-.team-list {display: flex; gap: 24px; margin-left: 140px; margin-right: 140px;}
+.team-list {display: flex; gap: 24px;}
 .team-card {background-color: #FFFFFF; border-radius: 0 0 4px 4px;
     width: calc((100% - 72px)/4);}
 .name {padding: 32px 0;}
@@ -83,5 +83,5 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .logo-header,
 .logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase; }
 .logo-header {margin-right: 76px;}
-.div-footer {margin-left: 76px;}
+.div-footer {margin-left: 156px;}
 
