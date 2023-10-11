@@ -12,23 +12,23 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
    margin: 0 auto;
    padding: 0 15px;} 
 .menu {display: flex; width: 1158px; margin: 0 auto; padding: 0 15px;}
-.nav {display: flex; align-items: center;}
+.nav {display: flex; align-items: center; justify-content: left;}
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;
     padding: 24px 0;}
 .navigation-list {display: flex; gap: 40px; padding: 24px 0;}
-.li-navigation {display: flex;}
+.li-navigation {display: flex; justify-content: center;}
 .navigation:hover,
 .navigation:focus {color: #404bbf;}
 .address {font-style: normal; text-decoration: none; font-size: 16px; line-height: 1.5; letter-spacing: 0.02em; color: #434455;
     padding: 24px 0;}
-.address-list {display: flex; gap: 40px; padding: 0 40px;}
+.address-list {display: flex; gap: 40px; padding-left: 250px;}
 .address:hover,
 .address:focus { color: #404BBF;}
 .catchphrase {background-color: #2E2F42; padding: 188px 0;}
 .title {color: #FFFFFF;font-size: 56px; font-weight: 700; line-height: 1.07; letter-spacing: 0.02em; text-align: center;
     max-width: 496px; margin: auto;}
 .order-button {color:#FFFFFF; background-color: #4D5AE5; font-family: "Roboto", sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; letter-spacing: 0.04em; cursor: pointer;
-    display: block; min-width: 169px; height: 56px; border: none; border-radius: 4px; margin: 0 auto}
+    display: block; min-width: 169px; height: 56px; border: none; border-radius: 4px; margin: 0 auto; margin-top: 40px;}
 .order-button:hover,
 .order-button:focus {background-color: #404BBF; cursor: pointer;}
 .title { font-weight: 500;}
@@ -50,16 +50,17 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     text-align: center;}
 .main-title { color: #2E2F42; font-size: 36px; line-height: 1.11; letter-spacing: 0.02em; text-align: center; text-transform: capitalize;
     margin-bottom: 72px;}
-.values {padding: 120px 0;}
+.values {padding: 120px 0; margin-left: 76px; margin-right: 76px;}
 .values-list {display: flex; gap: 24px}
 .li-values {width: calc((100% - 72px) / 4);}
 .what-are-we-doing {padding-bottom: 120px;}
-.doing-list {display: flex; gap: 24px}
+.doing-list {display: flex; gap: 24px; margin-left: 76px;}
 .li-doing {width: calc((100% - 48px)/3);}
-.team-list {display: flex; gap: 24px;}
+.team-list {display: flex; gap: 24px; justify-content: center;}
 .name {padding: 32px 0;}
 .team {background-color: #F4F4FD;
-    padding: 120px 0;}
+    padding: 120px 0;
+}
 .team-card{background-color: #FFFFFF;
     width: calc((100%-3*24px)/4); border-radius: 0 0 4px 4px;}
 .filters {padding: 96px 0 120px 0;}
@@ -69,15 +70,16 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .filter-button:hover,
 .filter-button:focus { color: #FFFFFF; background-color: #404BBF; cursor: pointer;
     border: 1px solid transparent;}
-.services-list {display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px;}
+.services-list {display: flex; flex-wrap: wrap; column-gap: 24px; row-gap: 48px; margin-left: 76px;}
 .li-app {width: calc((100% - 48px)/3);}
 .apps {padding: 32px 16px; border: 1px solid #e7e9fc; border-top: none;}
 .footer {background-color: #2E2F42; display: flex; padding: 100px 0;}
 .span-footer {color: #F4F4FD;}
 .text-footer {color: #F4F4FD; line-height: 1.5; letter-spacing: 0.02em;
     max-width: 264px;}
-.logo-footer {margin-bottom: 16px; }
+.logo-footer {margin-bottom: 16px;}
 .logo-header,
 .logo-footer {font-family: "Raleway",sans-serif; font-weight: 800; font-size: 18px; color: #4d5ae5; line-height: 1.17; letter-spacing: 0.03em; text-transform: uppercase; }
 .logo-header {margin-right: 76px;}
+.div-footer {margin-left: 76px;}
 
