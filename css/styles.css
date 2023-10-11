@@ -51,17 +51,17 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .main-title { color: #2E2F42; font-size: 36px; line-height: 1.11; letter-spacing: 0.02em; text-align: center; text-transform: capitalize;
     margin-bottom: 72px;}
 .values {padding: 120px 0;}
-.values-list {display: flex; gap: 24px;}
+.values-list {display: flex; gap: 24px; margin-left: 140px; margin-right: 140px;}
 .li-values {
     width: calc((100% - 72px)/4);}
 .what-are-we-doing {padding-bottom: 120px;}
-.doing-list {display: flex; gap: 24px;}
+.doing-list {display: flex; gap: 24px; margin-left: 140px;}
 .li-doing {
     width: calc((100% - 48px)/3);}
 .team {background-color: #F4F4FD;
     padding: 120px 0;
     }
-.team-list {display: flex; gap: 24px;}
+.team-list {display: flex; gap: 24px; margin-left: 140px; margin-right: 140px;}
 .team-card {background-color: #FFFFFF; border-radius: 0 0 4px 4px;
     width: calc((100% - 72px)/4);}
 .name {padding: 32px 0;}
