@@ -15,7 +15,7 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .nav {display: flex; align-items: center;}
 .navigation {color: #2E2F42; font-size: 16px; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em;
     padding: 24px 0;}
-.navigation-list {display: flex; gap: 40px; padding: 24px 0;}
+.navigation-list {display: flex; gap: 40px;}
 .li-navigation {display: flex; justify-content: center;}
 .navigation:hover,
 .navigation:focus {color: #404bbf;}
@@ -36,7 +36,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
 .headline-values { color: #2E2F42; font-size: 20px; font-weight: 500; line-height: 1.2; letter-spacing: 0.02em;
     margin-bottom: 8px;}
 .headline { color: #2E2F42; font-size: 20px; font-weight: 500; line-height: 1.2; letter-spacing: 0.02em;
-    margin-bottom: 8px; text-align: center;}
+    margin-bottom: 8px;}
+.headline-team {text-align: center;}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -50,8 +51,8 @@ body { font-family: "Roboto", sans-serif; color: #434455; background-color: #FFF
     overflow: hidden;
     }
 .text { color: #434455; line-height: 1.5; letter-spacing: 0.02em;
-    text-align: center;}
-.text-values {color: #434455; line-height: 1.5; letter-spacing: 0.02em;}
+    }
+.text-team {text-align: center;}
 .main-title { color: #2E2F42; font-size: 36px; line-height: 1.11; letter-spacing: 0.02em; text-align: center; text-transform: capitalize;
     margin-bottom: 72px;}
 .values {padding: 120px 0;}
